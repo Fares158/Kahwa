@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Improve focus visibility */
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary ring-offset-2;
+  }
+
+  /* Improve text contrast */
+  body {
+    @apply text-gray-900 bg-white;
+  }
+}
+
+@layer components {
+  /* Typography */
+  .heading-1 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-[#8B4513] font-mono;
+  }
+  
+  .heading-2 {
+    @apply text-2xl md:text-3xl font-bold text-[#8B4513] font-mono;
+  }
+  
+  .heading-3 {
+    @apply text-xl md:text-2xl font-semibold text-[#8B4513] font-mono;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    @apply px-6 py-3 bg-[#8B4513] text-white rounded-lg 
+           hover:bg-[#723A0F] active:bg-[#5C2F0C] 
+           transition-colors duration-200
+           focus:outline-none focus:ring-2 focus:ring-[#8B4513] focus:ring-offset-2
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 border-2 border-[#8B4513] text-[#8B4513] rounded-lg
+           hover:bg-[#8B4513] hover:text-white
+           active:bg-[#723A0F] active:border-[#723A0F]
+           transition-colors duration-200
+           focus:outline-none focus:ring-2 focus:ring-[#8B4513] focus:ring-offset-2
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  /* Form inputs */
+  .input {
+    @apply w-full px-4 py-2 rounded-md border border-gray-300
+           focus:border-[#8B4513] focus:ring-1 focus:ring-[#8B4513]
+           transition-colors duration-200;
+  }
+
+  /* Navigation links */
+  .nav-link {
+    @apply text-[#E5B94C] hover:text-white transition-colors duration-200
+           relative after:absolute after:bottom-0 after:left-0 
+           after:w-0 after:h-0.5 after:bg-[#E5B94C]
+           hover:after:w-full after:transition-all after:duration-200
+           focus:outline-none focus:ring-2 focus:ring-[#E5B94C];
+  }
+
+  /* Container */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Section spacing */
+  .section-padding {
+    @apply py-12 md:py-16 lg:py-20;
+  }
+}
