@@ -18,7 +18,7 @@ export const fr: Translations = {
   features: {
     title: 'Caractéristiques',
     ambiance: 'Ambiance Plateau de Cinéma',
-    wifi: 'Wifi gratuits',
+    wifi: 'Wifi gratuit',
     chichas: 'Chichas disponibles',
   },
   menu: {
