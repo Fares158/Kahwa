@@ -69,7 +69,7 @@ const HomeEvents: React.FC = () => {
 
         {!nextEvent ? (
           <div className="text-center">
-            <p className="text-white/70 mb-4">No upcoming events for now</p>
+            <p className="text-white/70 mb-4">{t('events.noupcoming')}</p>
             <Link
               to="/events"
               className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"

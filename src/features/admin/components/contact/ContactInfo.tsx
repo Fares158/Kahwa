@@ -9,7 +9,7 @@ import ContactSocialInfo from './sections/ContactSocialInfo';
 const ContactInfo: React.FC = () => {
   const [contactInfo, setContactInfo] = useState<ContactInfoType>({
     email: 'info@thecast.com',
-    phone: '+216 71 234 567',
+    phone: '+216 55 304 314',
     address: {
       street: "Av. de l'Ère Nouvelle",
       city: 'Ariana',

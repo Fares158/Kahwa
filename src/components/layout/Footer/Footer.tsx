@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
                 aria-label="Call us"
               >
                 <Phone className="h-5 w-5" aria-hidden="true" />
-                <span>+216 71 234 567</span>
+                <span>+216 55 304 314</span>
               </a>
               <div className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 mt-1" aria-hidden="true" />

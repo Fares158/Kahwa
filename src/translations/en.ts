@@ -158,6 +158,7 @@ export const en: Translations = {
     title: 'Upcoming Events',
     subtitle: 'Join us for special screenings and coffee experiences',
     upcomingEvents: 'Upcoming Events',
+    noupcoming : 'No upcoming events for now',
     pastEvents: 'Past Events',
     noEvents: 'No events found',
     pastEventLabel: 'Past Event',
@@ -192,7 +193,7 @@ export const en: Translations = {
     title: 'Contact Us',
     getInTouch: 'Get in Touch',
     address: "Av. de l'Ère Nouvelle, Ariana 2001, Tunisia",
-    phone: '+216 71 234 567',
+    phone: '+216 55 304 314',
     email: 'info@thecast.com',
     hours: {
       title: 'Opening Hours',

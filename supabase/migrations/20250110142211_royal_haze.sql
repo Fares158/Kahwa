@@ -189,6 +189,6 @@ INSERT INTO business_hours (day, open_time, close_time) VALUES
 
 -- Insert default settings
 INSERT INTO settings (key, value) VALUES
-  ('site_info', '{"name": "The Cast", "description": "Where Coffee Meets Cinema", "contact": {"email": "info@thecast.com", "phone": "+216 71 234 567"}}'),
+  ('site_info', '{"name": "The Cast", "description": "Where Coffee Meets Cinema", "contact": {"email": "info@thecast.com", "phone": "+216 55 304 314"}}'),
   ('theme', '{"primary": "#8B4513", "secondary": "#1A1A1A", "accent": "#E5B94C"}'),
   ('social_links', '{"facebook": "https://facebook.com/thecast", "instagram": "https://instagram.com/thecast", "twitter": "https://twitter.com/thecast"}');

@@ -160,6 +160,7 @@ export const fr: Translations = {
     subtitle:
       'Rejoignez-nous pour des projections spéciales et des expériences café',
     upcomingEvents: 'Événements à Venir',
+    noupcoming : "Pas d'événements prévus pour le moment",
     pastEvents: 'Événements Passés',
     noEvents: 'Aucun événement trouvé',
     pastEventLabel: 'Événement Passé',
@@ -194,7 +195,7 @@ export const fr: Translations = {
     title: 'Contactez-nous',
     getInTouch: 'Entrer en Contact',
     address: "Av. de l'Ère Nouvelle, Ariana 2001, Tunisie",
-    phone: '+216 71 234 567',
+    phone: '+216 55 304 314',
     email: 'info@thecast.com',
     hours: {
       title: "Horaires d'Ouverture",
