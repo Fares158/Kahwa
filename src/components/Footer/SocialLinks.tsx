@@ -2,10 +2,8 @@ import React from 'react';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Facebook, href: 'https://facebook.com/thecast', label: 'Facebook' },
   { icon: Instagram, href: 'https://instagram.com/thecast', label: 'Instagram' },
-  { icon: Twitter, href: 'https://twitter.com/thecast', label: 'Twitter' }
-];
+  ];
 
 const SocialLinks = () => {
   return (

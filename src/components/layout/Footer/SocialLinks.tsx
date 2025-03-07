@@ -8,9 +8,7 @@ interface SocialLink {
 }
 
 const socialLinks: SocialLink[] = [
-  { icon: Facebook, href: 'https://facebook.com/thecast', label: 'Follow us on Facebook' },
-  { icon: Instagram, href: 'https://instagram.com/thecast', label: 'Follow us on Instagram' },
-  { icon: Twitter, href: 'https://twitter.com/thecast', label: 'Follow us on Twitter' }
+  { icon: Instagram, href: 'https://www.instagram.com/thecastennaser/?hl=fr', label: 'Follow us on Instagram' },
 ];
 
 const SocialLinks: React.FC = () => {
